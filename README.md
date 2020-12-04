@@ -3,4 +3,4 @@ Notebook do artigo [Como extrair dados da Bovespa de graça com Python](https://
 O código também está disponível em:
 https://gist.github.com/rodrigobercini/8bbee7fc735ad7d696f7a2ec31df9610
 
-![Stocks](1_-S6hTG6qsqj8HcAn96iiTQ.jpeg)
+![Stocks](Screenshot_1.png)
