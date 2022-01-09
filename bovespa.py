@@ -14,7 +14,7 @@ abev.history(period='60d',  interval = "30m")
 
 # Intraday - 1 minuto
 abev = abev.history(period='7d',  interval = "1m")
-abev
+print(abev)
 
 # Informações financeiras
 petr = Ticker("PETR4.SA")     # Coleta dados
@@ -23,4 +23,4 @@ petr = petr.transpose()       # Transpõe a matriz
 petr.columns = petr.iloc[0,:] # Renomeia colunas
 petr = petr.iloc[2:,:-1]      # Seleciona dados
 petr = petr.iloc[:, ::-1]     # Inverte colunas
-petr
+print(petr)
